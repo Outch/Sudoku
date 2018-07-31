@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+main {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#mainTab {
+	margin-top: 150px;
+	display: inline-block;
+}
+
+input {
+	width: 25px;
+	height: 25px;
+}
+
+button {
+	margin: 0 auto;
+	display: block;
+}
+
+#help {
+	margin-top: 150px;
+}

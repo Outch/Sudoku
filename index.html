@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<script type="text/javascript" src="js/checkingTime.js" defer></script>
+	<script type="text/javascript" src="js/help.js" defer></script>
+	<script type="text/javascript" src="js/randomizeGrid.js" defer></script>
+	<script type="text/javascript" src="js/resolve.js" defer></script>
+	<script type="text/javascript" src="js/tab.js" defer></script>
+	<script type="text/javascript" src="js/main.js" defer></script>
+	<title>Sudoku</title>
+</head>
+<body>
+	<main>
+		<!-- Not working yet :( -->
+		<!-- <button id="help">Help</button> -->
+		<table id="mainTab">
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td><input id="c1" type="text" name=""></td>
+							<td><input id="c2" type="text" name=""></td>
+							<td><input id="c3" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c10" type="text" name=""></td>
+							<td><input id="c11" type="text" name=""></td>
+							<td><input id="c12" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c19" type="text" name=""></td>
+							<td><input id="c20" type="text" name=""></td>
+							<td><input id="c21" type="text" name=""></td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><input id="c4" type="text" name=""></td>
+							<td><input id="c5" type="text" name=""></td>
+							<td><input id="c6" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c13" type="text" name=""></td>
+							<td><input id="c14" type="text" name=""></td>
+							<td><input id="c15" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c22" type="text" name=""></td>
+							<td><input id="c23" type="text" name=""></td>
+							<td><input id="c24" type="text" name=""></td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><input id="c7" type="text" name=""></td>
+							<td><input id="c8" type="text" name=""></td>
+							<td><input id="c9" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c16" type="text" name=""></td>
+							<td><input id="c17" type="text" name=""></td>
+							<td><input id="c18" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c25" type="text" name=""></td>
+							<td><input id="c26" type="text" name=""></td>
+							<td><input id="c27" type="text" name=""></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td><input id="c28" type="text" name=""></td>
+							<td><input id="c29" type="text" name=""></td>
+							<td><input id="c30" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c37" type="text" name=""></td>
+							<td><input id="c38" type="text" name=""></td>
+							<td><input id="c39" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c46" type="text" name=""></td>
+							<td><input id="c47" type="text" name=""></td>
+							<td><input id="c48" type="text" name=""></td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><input id="c31" type="text" name=""></td>
+							<td><input id="c32" type="text" name=""></td>
+							<td><input id="c33" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c40" type="text" name=""></td>
+							<td><input id="c41" type="text" name=""></td>
+							<td><input id="c42" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c49" type="text" name=""></td>
+							<td><input id="c50" type="text" name=""></td>
+							<td><input id="c51" type="text" name=""></td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><input id="c34" type="text" name=""></td>
+							<td><input id="c35" type="text" name=""></td>
+							<td><input id="c36" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c43" type="text" name=""></td>
+							<td><input id="c44" type="text" name=""></td>
+							<td><input id="c45" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c52" type="text" name=""></td>
+							<td><input id="c53" type="text" name=""></td>
+							<td><input id="c54" type="text" name=""></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td><input id="c55" type="text" name=""></td>
+							<td><input id="c56" type="text" name=""></td>
+							<td><input id="c57" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c64" type="text" name=""></td>
+							<td><input id="c65" type="text" name=""></td>
+							<td><input id="c66" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c73" type="text" name=""></td>
+							<td><input id="c74" type="text" name=""></td>
+							<td><input id="c75" type="text" name=""></td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><input id="c58" type="text" name=""></td>
+							<td><input id="c59" type="text" name=""></td>
+							<td><input id="c60" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c67" type="text" name=""></td>
+							<td><input id="c68" type="text" name=""></td>
+							<td><input id="c69" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c76" type="text" name=""></td>
+							<td><input id="c77" type="text" name=""></td>
+							<td><input id="c78" type="text" name=""></td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><input id="c61" type="text" name=""></td>
+							<td><input id="c62" type="text" name=""></td>
+							<td><input id="c63" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c70" type="text" name=""></td>
+							<td><input id="c71" type="text" name=""></td>
+							<td><input id="c72" type="text" name=""></td>
+						</tr>
+						<tr>
+							<td><input id="c79" type="text" name=""></td>
+							<td><input id="c80" type="text" name=""></td>
+							<td><input id="c81" type="text" name=""></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<button id="check">Check</button>
+		<p id="isOk"></p>
+	</main>
+</body>
+</html>
